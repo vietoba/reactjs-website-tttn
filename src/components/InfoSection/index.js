@@ -45,7 +45,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src={Img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
