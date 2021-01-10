@@ -1,3 +1,5 @@
+
+
 export const homeObjOne ={
     id: 'about',
     lightBg: false,
@@ -8,7 +10,7 @@ export const homeObjOne ={
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero.',
     buttonLabel: 'Get started' ,
     imgStart: false,
-    img: require("../../images/svg-7.svg"),
+    img: "images/svg-1.svg",
     alt: 'Car',
     dark: true,
     primary: true,
@@ -25,7 +27,7 @@ export const homeObjTwo ={
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero.',
     buttonLabel: 'Learn More' ,
     imgStart: true,
-    img: require('../../images/svg-2.svg'),
+    img: '../../images/svg-2.svg',
     alt: 'Piggy bank',
     dark: false,
     primary: false,
@@ -42,7 +44,7 @@ export const homeObjThree ={
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero.',
     buttonLabel: 'Start Now' ,
     imgStart: false,
-    img: require('../../images/svg-3.svg'),
+    img: '../../images/svg-3.svg',
     alt: 'Paper',
     dark: false,
     primary: false,
