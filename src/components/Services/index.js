@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg-7.svg';
-import Icon2 from '../../images/svg-8.svg';
-import Icon3 from '../../images/svg-9.svg';
+import Icon1 from '../../images/svg-3.svg';
+import Icon2 from '../../images/svg-6.svg';
+import Icon3 from '../../images/svg-5.svg';
 import {
     ServicesContainer,
     ServicesH1,
@@ -15,24 +15,24 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1> Our Sercices </ServicesH1>
+            <ServicesH1> Tuyển dụng  </ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2> Reduces expenses </ServicesH2>
-                    <ServicesP> We help reduce your fess and incresse your aerall revenue. </ServicesP>
+                    <ServicesH2> Nhân viên Kinh doanh </ServicesH2>
+                    <ServicesP> Liên hệ với chúng tôi nếu bạn muốn ứng tuyển vào vị trí này. Gửi CV  </ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2> Virtual Offices  </ServicesH2>
-                    <ServicesP> We help reduce your fess and incresse your aerall revenue. </ServicesP>
+                    <ServicesH2> Nhân viên IT  </ServicesH2>
+                    <ServicesP> Liên hệ với chúng tôi nếu bạn muốn ứng tuyển vào vị trí này. Gửi CV </ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2> Premium Benefits </ServicesH2>
-                    <ServicesP> We help reduce your fess and incresse your aerall revenue. </ServicesP>
+                    <ServicesH2> CSKH,Saler </ServicesH2>
+                    <ServicesP> Liên hệ với chúng tôi nếu bạn muốn ứng tuyển vào vị trí này. Gửi CV </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

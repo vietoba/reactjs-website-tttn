@@ -20,13 +20,13 @@ const Signin = () => {
                     <Icon to='/'> Cmedia </Icon>
                     <FormContent>
                         <Form action='#'>
-                            <FormH1> Sign in to your account </FormH1>
+                            <FormH1> Đăng nhập tài khoản của bạn </FormH1>
                             <FormLabel htmlFor='for'> Email </FormLabel>
                             <FormInput type='email' required />
-                            <FormLabel htmlFor='for'> Password </FormLabel>
+                            <FormLabel htmlFor='for'> mật khẩu </FormLabel>
                             <FormInput type='password' required />
-                            <FormButton type='submit'> Continue </FormButton>
-                            <Text> Forgot password </Text>
+                            <FormButton type='submit'> Tiếp tục </FormButton>
+                            <Text> Quên mật khẩu </Text>
                         </Form>
                     </FormContent>
                 </FormWrap>

@@ -22,20 +22,20 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'> About </NavLinks>
+                            <NavLinks to='about'> Giới Thiệu </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'> Discover </NavLinks>
+                            <NavLinks to='discover'> Công nghệ </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'> Services </NavLinks>
+                            <NavLinks to='services'> Tuyển dụng </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup'> Sign Up </NavLinks>
+                            <NavLinks to='signup'> Đăng ký </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin"> Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin"> Đăng nhập </NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

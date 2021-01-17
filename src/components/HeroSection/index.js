@@ -26,15 +26,15 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1> Virtual Banking Made Easy </HeroH1>
+                <HeroH1> CÔNG TY CỔ PHẦN CMEDIA </HeroH1>
                 <HeroP>
-                    Sign up for a new accoun today and raceive $250 in 
-                    cerdit towards your
-                    next payment.
+                    Là công ty hàng đầu về lĩnh vực nghiên
+                    cứu dữ liệu trực tuyến và
+                    digital marketing
                 </HeroP>
                 <HeroWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                        Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                        Bắt đầu ngay {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroWrapper>
             </HeroContent>
